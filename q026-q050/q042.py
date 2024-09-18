@@ -5,4 +5,4 @@ import math
 ab = int(input())
 bc = int(input())
 
-print(str(int(math.degrees(math.atan(bc/ab))))+'\u00b0')
+print(str(int(math.degrees(math.atan(ab/bc))))+'\u00b0')
